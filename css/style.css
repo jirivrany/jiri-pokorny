@@ -1,5 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+
+.logo {
+    margin-top: 40px;
 }
 
 .firstcell {
@@ -75,6 +80,8 @@ h2 {
     padding: 10px 0px;
 }
 
+
+
 .bottompadding20 {
     padding-bottom: 20px;
 }
@@ -85,19 +92,33 @@ h2 {
    border: white solid 2px; 
 }
 
-.navcell {
+.nav-justified li {
     border-bottom: solid #e8cccb 4px;
     padding: 0px;
 }
 
-.navcell a {
-    color: black;
+.nav-justified li.active {
+    border-bottom: solid #faa85f 4px; 
+}
+
+.nav-justified {
+    border-collapse:separate;
+    border-spacing: 6px 3px;
+}
+
+.nav li a {
+    padding: 0;
+
 }
 
 .left {
      text-align: left !important;
 }
 
+.nav-justified li a {
+    text-align: left !important;
+    color: black;
+}
 
 .footer p {
     margin: 0;
